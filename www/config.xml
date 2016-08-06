@@ -4,14 +4,14 @@
     id        = "com.bencbond.phonegaplogin"
     version   = "1.0.0">
 
-<name>Phonegap Login System</name>
+<name>Fizz Quiz App</name>
 
 <description>
 This app creates a login system for phonegap
 </description>
 
-<author href="https://bencbond.com" email="bencbond@gmail.com">
-Ben Bond
+<author href="https://site.com" email="site@gmail.com">
+Site
 </author>
 
 <preference name="fullscreen" value="true" />
