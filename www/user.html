@@ -12,17 +12,17 @@
         <link rel="stylesheet" href="themes/bootstrap/css/fontawesome/font-awesome.min.css">
 		<script src="themes/jquery-mobile-1.4.5/jquery.js"></script>
 		<script src="../_assets/js/index.js"></script>
-	
-		<script type="text/javascript" src="cordova.js"></script>
+
+		<script type="text/javascript" src="phonegap.js"></script>
 		<script type="text/javascript">
 			//*******CHANGE THIS*********
 			//	var domain = 'http://104.238.96.209/~newsimtms/test/qu/afizzquizapp';
 			//var domain =  'http://maong.local/afizzquizapp';
 			var domain ='http://www.legalfish.com/beta/app/afizzquizapp';
 			//*******CHANGE THIS*********
-			
+
 			document.addEventListener("deviceready", onDeviceReady, false);
-			
+
 			function onDeviceReady() {
 			var username = window.localStorage.getItem("username");
 			var password = window.localStorage.getItem("password");
@@ -34,8 +34,8 @@
 			document.getElementById('message').innerHTML = "It didn't work!";
 			}
 			}
-			
-			
+
+
 		</script>
 		<script type="text/javascript" src="js/main.js"></script>
 		<script type="text/javascript" src="js/users.js"></script>
@@ -50,10 +50,10 @@
 	</div>
 <div data-role="content">
 
-	
+
 	<div id="message"></div>
 
-	
+
 </div>
 
 
