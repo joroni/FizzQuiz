@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="themes/jquery-mobile-1.4.5/jquery.mobile-1.4.5.min.css">
 		<link rel="stylesheet" href="../_assets/css/jqm-demos.css">
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
-        <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,700,100' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
 		<script src="themes/jquery-mobile-1.4.5/jquery.js"></script>
          <script src="themes/bootstrap/js/plugins/bootstrap/bootstrap.min.js"></script>
 		<script src="../_assets/js/index.js"></script>
@@ -50,7 +50,7 @@
 		<script type="text/javascript" src="js/users.js"></script>
 	</head>
 	<body>
-		<div data-role="page" id="page" class="jqm-demos jqm-home">
+		<div data-role="page" id="home" class="jqm-demos jqm-home">
 			<div data-role="header" class="jqm-header">
 				<h2><img src="img/logo2.png" alt="Fizz Quiz" height="40"></h2>
 				<!--<a href="#popupMenu" data-rel="popup" data-transition="slideup" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left"></a>-->
@@ -58,7 +58,8 @@
 				<div data-role="popup" id="popupMenu" data-theme="b">
 					<ul data-role="listview" data-inset="true" style="min-width:210px;">
 						<li data-role="list-divider">
-							<div id="userbox" style="text-transform:capitalize !important;"></div>
+							<div id="userbox" class="truncate" style="text-transform:capitalize !important;"></div>
+                            <div id="user_photo"><img src="img/user_default.png"></div>
 						</li>
                         <li><a data-rel="external" data-transition="slideup" href="user.html">Profile</a></li>
 						<li><a href="#">Play</a></li>
@@ -81,18 +82,18 @@
                       <a class="ui-btn ui-icon-info ui-btn-icon-right btn-coke" data-rel="external" data-transition="slideup" href="#">Overview and Incentives</a>
                
 			</div>
-			<div id="footer" data-role="footer" data-id="foo1" data-position="fixed">
-				<div data-role="navbar">
+				<!--<div id="footer" data-role="footer" data-id="foo1" data-position="fixed">
+			<div data-role="navbar">
 					<ul>
 						<li><a href="main.html" class="ui-btn-active ui-state-persist" data-prefetch>Home</a></li>
-						<li><a href="footer-persist-a.html" data-prefetch>Quiz</a></li>
-						<li><a href="footer-persist-b.html" data-prefetch>Albums</a></li>
+						<li><a href="#" data-prefetch>Quiz</a></li>
+						<li><a href="#" data-prefetch>Albums</a></li>
 						<li><a href="user.html" data-prefetch>User</a></li>
 					</ul>
-				</div>
+				</div>-->
 				<!-- /navbar -->
-			</div>
-			<!-- /footer -->
+			<!--</div>
+			 /footer -->
 		</div>
 	</body>
 </html>

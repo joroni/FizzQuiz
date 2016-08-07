@@ -35,6 +35,46 @@ div.ui-content center a.ui-link {
 	text-decoration: none !important;
 }
 
+
+#userbox {
+	font-size:16px !important;
+	min-height:25px;
+}
+
+#user_photo {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    float: right;
+    z-index: 200000;
+    display: block;
+    margin-top: -24px;
+}
+
+#user_photo img {
+	min-width:100%;
+	max-width: 100%;
+}
+
+#popupMenu ul li a {
+	font-weight:100 !important;
+}
+
+.truncate {
+  width: 130px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+div#home {
+    background: url(../img/bubbles.gif) center center no-repeat fixed;
+    background-size: cover;
+    background-color: #eee;
+}
+	
 input[type='button'], button, .btn, .btn-coke, .content .ui-btn  {
 	background: #ec2024 !important;
 	opacity:1 !important;
