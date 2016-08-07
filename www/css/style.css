@@ -1,18 +1,18 @@
 @charset "UTF-8";
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,500,600,700&subset=latin,latin-ext);
-@import "themes/bootstrap/css/jquery/jquery-ui.min.css";
-@import "themes/bootstrap/css/bootstrap/bootstrap.min.css";
-@import "themes/bootstrap/css/fontawesome/font-awesome.min.css";
-@import "themes/bootstrap/css/summernote/summernote.css";
-@import "themes/bootstrap/css/codemirror/codemirror.css";
-@import "themes/bootstrap/css/nvd3/nv.d3.css";
-@import "themes/bootstrap/css/mcustomscrollbar/jquery.mCustomScrollbar.css";
-@import "themes/bootstrap/css/fullcalendar/fullcalendar.css";
-@import "themes/bootstrap/css/blueimp/blueimp-gallery.min.css";
-@import "themes/bootstrap/css/rickshaw/rickshaw.css";
-@import "themes/bootstrap/css/dropzone/dropzone.css";
-@import "themes/bootstrap/css/animate/animate.min.css";
+@import "../themes/bootstrap/css/jquery/jquery-ui.min.css";
+@import "../themes/bootstrap/css/bootstrap/bootstrap.min.css";
+@import "../themes/bootstrap/css/fontawesome/font-awesome.min.css";
+@import "../themes/bootstrap/css/summernote/summernote.css";
+@import "../themes/bootstrap/css/codemirror/codemirror.css";
+@import "../themes/bootstrap/css/nvd3/nv.d3.css";
+@import "../themes/bootstrap/css/mcustomscrollbar/jquery.mCustomScrollbar.css";
+@import "../themes/bootstrap/css/fullcalendar/fullcalendar.css";
+@import "../themes/bootstrap/css/blueimp/blueimp-gallery.min.css";
+@import "../themes/bootstrap/css/rickshaw/rickshaw.css";
+@import "../themes/bootstrap/css/dropzone/dropzone.css";
+@import "../themes/bootstrap/css/animate/animate.min.css";
 
 .jqm-demos .jqm-header{
     background: rgba(209,0,0,1) none repeat scroll 0 0 !important;

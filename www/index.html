@@ -14,19 +14,19 @@
          <script src="themes/bootstrap/js/plugins/bootstrap/bootstrap.min.js"></script>
 		<script src="../_assets/js/index.js"></script>
 		<script src="themes/jquery-mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
-		<script type="text/javascript" src="phonegap.js"></script>
+		<script type="text/javascript" src="cordova.js"></script>
 		<script type="text/javascript">
 			//*******CHANGE THIS*********
 			//  var domain = 'http://104.238.96.209/~newsimtms/test/qu/afizzquizapp';
 			//var domain =  'http://maong.local/afizzquizapp';
 			var domain ='http://www.legalfish.com/beta/app/afizzquizapp';
 			//*******CHANGE THIS*********
-
-
+			
+			
 			document.addEventListener("deviceready", onDeviceReady, false);
-
+			
 			function onDeviceReady() {
-
+			
 			    var username = window.localStorage.getItem("username");
 			var password = window.localStorage.getItem("password");
 			if(username != null && password != null)
@@ -40,10 +40,10 @@
 			}
 			}
 			}
-
-
-
-
+			
+			
+			
+			
 		</script>
 		<script type="text/javascript" src="js/main.js"></script>
 		<script type="text/javascript" src="js/users.js"></script>
@@ -64,7 +64,7 @@
 						<li><a href="#">Delete</a></li>
 					</ul>
 				</div>
-				<!--
+				<!-- 
 					<a href="#" class="jqm-search-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-search ui-nodisc-icon ui-alt-icon ui-btn-right">Search</a>-->
 			</div>
 			<!-- /header -->
@@ -72,20 +72,20 @@
 			<div id="message"></div>
             <div class="buttonHolder">
 				<button type="button" name="goLogin" id="goLogin" onclick="gotoLogin();" class="btn btn-coke" >Login / Connexion</button>
-
+				
 				<br />
 				<center>
 					Don't have an account yet? <br />
                     <button type="button" class="btn btn-coke btn-block" rel="external" data-transition="slideup" name="gotoSignup" id="gotoSignup" onclick="gotoSignup();">Sign up / S'inscrire</button>
 					<!--<a class="btn btn-coke" href="reg.html" rel="external" data-transition="slideup">REGISTER</a>--> <br /> <a href="forgot.html" rel="external" style="color:#8d8d8d !important; font-size:12px;">Forgot my password</a>
 				</center>
-
+				
                 </div>
 			</div>
 		</div>
 		<div id="footer" data-role="footer" data-id="foo1" data-position="fixed">
-
-
+        
+			
 		</div>
 		<!-- /footer -->
 	</body>

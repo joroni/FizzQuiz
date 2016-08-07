@@ -5,24 +5,24 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Fizz Quiz App</title>
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="themes/jquery-mobile-1.4.5/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" href="../themes/jquery-mobile-1.4.5/jquery.mobile-1.4.5.min.css">
 		<link rel="stylesheet" href="../_assets/css/jqm-demos.css">
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,700,100' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="themes/bootstrap/css/fontawesome/font-awesome.min.css">
-		<script src="themes/jquery-mobile-1.4.5/jquery.js"></script>
+        <link rel="stylesheet" href="../themes/bootstrap/css/fontawesome/font-awesome.min.css">
+		<script src="../themes/jquery-mobile-1.4.5/jquery.js"></script>
 		<script src="../_assets/js/index.js"></script>
-
-		<script type="text/javascript" src="phonegap.js"></script>
+	
+		<script type="text/javascript" src="cordova.js"></script>
 		<script type="text/javascript">
 			//*******CHANGE THIS*********
 			//	var domain = 'http://104.238.96.209/~newsimtms/test/qu/afizzquizapp';
 			//var domain =  'http://maong.local/afizzquizapp';
 			var domain ='http://www.legalfish.com/beta/app/afizzquizapp';
 			//*******CHANGE THIS*********
-
+			
 			document.addEventListener("deviceready", onDeviceReady, false);
-
+			
 			function onDeviceReady() {
 			var username = window.localStorage.getItem("username");
 			var password = window.localStorage.getItem("password");
@@ -34,8 +34,8 @@
 			document.getElementById('message').innerHTML = "It didn't work!";
 			}
 			}
-
-
+			
+			
 		</script>
 		<script type="text/javascript" src="js/main.js"></script>
 		<script type="text/javascript" src="js/users.js"></script>
@@ -50,10 +50,10 @@
 	</div>
 <div data-role="content">
 
-
+	
 	<div id="message"></div>
 
-
+	
 </div>
 
 
