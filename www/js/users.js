@@ -7,7 +7,7 @@ $(document).ready (function(){
 		$.ajax({
 
 			//url:"http://maong.local/afizzquizapp/json_api.php",
-			url: "http://www.legalfish.com/beta/app/afizzquizapp/login.html",
+			url: "http://www.legalfish.com/beta/app/afizzquizapp",
 		//	url: "http://104.238.96.209/~newsimtms/test/qu/afizzquizapp",
 			type:"GET",
 			dataType: "json",
@@ -16,8 +16,8 @@ $(document).ready (function(){
 			ContentType:"application/json",
 			success: function (response)
 				{
-				//	alert(JSON.stringify(response));
-						$('#message').append(JSON.stringify(response));
+					alert(JSON.stringify(response));
+					//	$('#message').append(JSON.stringify(response));
 				},
 				error: function(err)
 				{

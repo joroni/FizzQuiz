@@ -30,6 +30,7 @@ $.getJSON(domain+'/json_backend.php?callback=?','un='+un+'&action='+action,funct
 
 		else{
        		document.getElementById('message').innerHTML = '<b>'+res.status+'</b>';
+			
 		}
     });
 }
@@ -99,11 +100,11 @@ $.getJSON(domain+'/json_backend.php?callback=?','un='+un+'&action='+action,funct
 
      function logout()
      {
-      document.addEventListener('deviceready', logOutReady, true);
+      document.addEventListener('deviceready', logOutReady, false);
 /* added by raymund */
-          window.localStorage.removeItem('username');
+      /*    window.localStorage.removeItem('username');
           window.localStorage.removeItem('password');
-          window.location = 'index.html';
+          window.location = 'index.html';*/
 
      }
      function logOutReady(){
