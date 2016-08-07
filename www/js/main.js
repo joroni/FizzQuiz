@@ -48,6 +48,14 @@ $.getJSON(domain+'/json_backend.php?callback=?','un='+un+'&action='+action,funct
     });
 }
 
+function gotoLogin(){
+	window.location = 'login.html';
+}
+
+function gotoSignup(){
+	window.location = 'reg.html';
+}
+
 	   function signup(){
 		   var un = document.getElementById('username').value;
 

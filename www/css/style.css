@@ -20,8 +20,14 @@
     border-top: 4px solid rgba(209,0,0,1) !important;
     padding-top: 0px !important;
 	color:#fff !important;
-	text-shadow: 0 1px 0 #333 !important; 
+	font-family:"Roboto Condensed", sans-serif !important;
+	text-shadow: 0 0px 1px #333 !important; 
 }
+div#index div.jqm-header.ui-header.ui-bar-inherit h2.ui-title, div#login  div.jqm-header.ui-header.ui-bar-inherit h2.ui-title  {
+	margin-left:0 !important;
+	margin-right:0px !important;
+}
+
 
 div.ui-content center a.ui-link {
 	color:#ec2024 !important;
@@ -38,7 +44,7 @@ input[type='button'], button, .btn, .btn-coke, .content .ui-btn  {
 	font-weight: 400 !important;
 	font-family:"Roboto", sans-serif !important;
 	text-shadow: 0 0px 0 #333 !important; 
-	border-radius: 0 !important;
+	border-radius: 5px !important;
 }
 
 input[type='button'], input[type='text'], input[type='password'], .ui-input-text input, .ui-input-search input
@@ -106,6 +112,12 @@ input[type='button'], input[type='text'], input[type='password'], .ui-input-text
 
 #footer {
 	display:none !important;
+}
+
+.ui-btn-icon-right {
+    font-family: "Roboto Condensed",sans-serif !important;
+    padding-right: 2.5em;
+    text-transform: uppercase !important
 }
 
 .jqm-header a {
